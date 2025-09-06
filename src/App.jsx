@@ -13,6 +13,9 @@ import HookUseMemo from './playground/HookUseMemo'
 import HookUseId from './playground/HookUseId'
 import HookUseOptimistic from './playground/HookUseOptimistic'
 import HookUseLayoutEffect from './playground/HookUseLayoutEffect'
+import HookUseTransition from './playground/HookUseTransition'
+import HookUseActionState from './playground/HookUseActionState'
+import HookUseSyncExternalStore from './playground/HookUseSyncExternalStore'
 
 
 function App() {
@@ -34,6 +37,9 @@ function App() {
         <Route path='useId' element={<HookUseId/>}></Route>
         <Route path='useOptimistic' element={<HookUseOptimistic/>}></Route>
         <Route path='useLayoutEffect' element={<HookUseLayoutEffect/>}></Route>
+        <Route path='useTransition' element={<HookUseTransition/>}></Route>
+        <Route path='useActionState' element={<HookUseActionState/>}></Route>
+        <Route path='useSyncExternalStore' element={<HookUseSyncExternalStore/>}></Route>
 
       </Routes>
     </BrowserRouter>

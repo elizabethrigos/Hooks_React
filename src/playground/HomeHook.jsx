@@ -21,6 +21,10 @@ function HomeHook() {
         <a href="useId" className="list-group-item">ir a Id ^_^</a>
         <a href="useOptimistic" className="list-group-item">ir a Optimistic ^_^</a>
         <a href="useLayoutEffect" className="list-group-item">ir a LayoutEffect ^_^</a>
+        <a href="useTransition" className="list-group-item">ir a transition ^_^</a>
+        <a href="useActionState" className="list-group-item">ir a ActionState ^_^</a> 
+        <a href="useSyncExternalStore" className="list-group-item">ir a SyncExternalStore ^_^</a>    
+
       </div>
     </div>
   );
