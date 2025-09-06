@@ -10,6 +10,9 @@ import HookUseCallback from './playground/HookUseCallback'
 import HookUseContext from './playground/HookUseContext'
 import HookUseReducer from './playground/HookUseReducer'
 import HookUseMemo from './playground/HookUseMemo'
+import HookUseTransition from './playground/HookUseTransition'
+import HookUseActionState from './playground/HookUseActionState'
+import HookUseSyncExternalStore from './playground/HookUseSyncExternalStore'
 
 function App() {
 
@@ -27,6 +30,9 @@ function App() {
         <Route path='useContext' element={<HookUseContext/>}></Route>
         <Route path='useReducer' element={<HookUseReducer/>}></Route>
         <Route path='useMemo' element={<HookUseMemo/>}></Route>
+        <Route path='useTransition' element={<HookUseTransition/>}></Route>
+        <Route path='useActionState' element={<HookUseActionState/>}></Route>
+        <Route path='useSyncExternalStore' element={<HookUseSyncExternalStore/>}></Route>
 
       </Routes>
     </BrowserRouter>
