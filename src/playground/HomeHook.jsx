@@ -9,6 +9,7 @@ function HomeHook() {
       <div className="list-group">
         <a href="UseState" className="list-group-item">ir a UseState ^_^</a>
         <a href="UseNavigate" className="list-group-item">ir a Navigate ^_^</a>
+        <a href="useDebug" className="list-group-item">ir a debug ^_^</a>
       </div>
     </div>
   );
