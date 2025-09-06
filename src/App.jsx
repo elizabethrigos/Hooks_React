@@ -10,6 +10,7 @@ import HookUseCallback from './playground/HookUseCallback'
 import HookUseContext from './playground/HookUseContext'
 import HookUseReducer from './playground/HookUseReducer'
 import HookUseMemo from './playground/HookUseMemo'
+import HookUseId from './playground/HookUseId'
 
 function App() {
 
@@ -27,6 +28,7 @@ function App() {
         <Route path='useContext' element={<HookUseContext/>}></Route>
         <Route path='useReducer' element={<HookUseReducer/>}></Route>
         <Route path='useMemo' element={<HookUseMemo/>}></Route>
+        <Route path='useId' element={<HookUseId/>}></Route>
 
       </Routes>
     </BrowserRouter>

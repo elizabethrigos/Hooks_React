@@ -18,6 +18,7 @@ function HomeHook() {
         <a href="useContext" className="list-group-item">ir a context ^_^</a>
         <a href="useReducer" className="list-group-item">ir a reducer ^_^</a>
         <a href="useMemo" className="list-group-item">ir a memo ^_^</a>
+        <a href="useId" className="list-group-item">ir a Id ^_^</a>
       </div>
     </div>
   );
