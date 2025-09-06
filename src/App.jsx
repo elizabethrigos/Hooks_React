@@ -11,6 +11,9 @@ import HookUseContext from './playground/HookUseContext'
 import HookUseReducer from './playground/HookUseReducer'
 import HookUseMemo from './playground/HookUseMemo'
 import HookUseId from './playground/HookUseId'
+import HookUseOptimistic from './playground/HookUseOptimistic'
+import HookUseLayoutEffect from './playground/HookUseLayoutEffect'
+
 
 function App() {
 
@@ -29,6 +32,8 @@ function App() {
         <Route path='useReducer' element={<HookUseReducer/>}></Route>
         <Route path='useMemo' element={<HookUseMemo/>}></Route>
         <Route path='useId' element={<HookUseId/>}></Route>
+        <Route path='useOptimistic' element={<HookUseOptimistic/>}></Route>
+        <Route path='useLayoutEffect' element={<HookUseLayoutEffect/>}></Route>
 
       </Routes>
     </BrowserRouter>

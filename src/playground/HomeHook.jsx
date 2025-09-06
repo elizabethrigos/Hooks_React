@@ -19,6 +19,8 @@ function HomeHook() {
         <a href="useReducer" className="list-group-item">ir a reducer ^_^</a>
         <a href="useMemo" className="list-group-item">ir a memo ^_^</a>
         <a href="useId" className="list-group-item">ir a Id ^_^</a>
+        <a href="useOptimistic" className="list-group-item">ir a Optimistic ^_^</a>
+        <a href="useLayoutEffect" className="list-group-item">ir a LayoutEffect ^_^</a>
       </div>
     </div>
   );
