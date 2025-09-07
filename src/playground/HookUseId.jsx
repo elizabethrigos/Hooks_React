@@ -6,6 +6,8 @@ function HookUseId() {
   const passwordHintId = useId();
   return (
     <form>
+      <h1>Ejemplo de Id</h1>
+      <hr />
       <label htmlFor={id + '-firstName'}>Primer nombre:</label>
       <input id={id + '-firstName'} type="text" />
       <hr />
@@ -23,6 +25,7 @@ function HookUseId() {
       <p id={passwordHintId}>
         Ponle algo difícil de adivinar, como el nombre de tu primera mascota.
       </p>
+      <hr />
     </>
     <Link to="/">Volver al Home</Link>
     </form>

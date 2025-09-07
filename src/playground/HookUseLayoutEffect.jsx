@@ -11,6 +11,7 @@ function HookUseLayoutEffect() {
 
   return (
     <div className="container text-center">
+      <h1>Ejemplo de LayoutEffect</h1>
       <div>Al cambiar el padding cambia el valor de la altura</div>
       <input
         type="number"

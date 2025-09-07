@@ -16,7 +16,10 @@ import HookUseLayoutEffect from './playground/HookUseLayoutEffect'
 import HookUseTransition from './playground/HookUseTransition'
 import HookUseActionState from './playground/HookUseActionState'
 import HookUseSyncExternalStore from './playground/HookUseSyncExternalStore'
-
+import HookUseImperativeHandle from './playground/HookUseImperativeHandle'
+import HookUseInsertionEffect from './playground/HookUseInsertionEffect'
+import HookUseUse from './playground/HookUseUse'
+import HookUseDeferredValue from './playground/HookUseDeferredValue'
 
 function App() {
 
@@ -40,6 +43,10 @@ function App() {
         <Route path='useTransition' element={<HookUseTransition/>}></Route>
         <Route path='useActionState' element={<HookUseActionState/>}></Route>
         <Route path='useSyncExternalStore' element={<HookUseSyncExternalStore/>}></Route>
+        <Route path='useImperativeHandle' element={<HookUseImperativeHandle/>}></Route>
+        <Route path='useInsertionEffect' element={<HookUseInsertionEffect/>}></Route>
+        <Route path='useUse' element={<HookUseUse/>}></Route>
+        <Route path='useDeferredValue' element={<HookUseDeferredValue/>}></Route>
 
       </Routes>
     </BrowserRouter>
