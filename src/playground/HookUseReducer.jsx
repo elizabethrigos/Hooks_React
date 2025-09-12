@@ -26,6 +26,7 @@ function HookUseReducer() {
       <button className="btn btn-secondary" onClick={() => dispatch({ type: 'decremented_age' })}>
         Decrementar edad
       </button>
+      <hr />
       <div><Link to="/">Volver al Home</Link></div>
     </div>
   );

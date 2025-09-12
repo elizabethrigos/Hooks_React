@@ -7,9 +7,7 @@ function HomeHook() {
         <h2>Ejemplos de UseNavigate 🐻‍❄️</h2>
       </div>
       <div className="list-group">
-        <a href="UseState" className="list-group-item">
-          UseState = Gestiona el estado de un componente, permitiéndole recordar y actualizar valores.
-          </a>
+        <a href="UseState" className="list-group-item">ir a UseState ^_^</a>
         <a href="UseNavigate" className="list-group-item">ir a Navigate ^_^</a>
         <a href="useDebug" className="list-group-item">ir a debug ^_^</a>
         <a href="useEffect" className="list-group-item">ir a effects😎</a>
@@ -23,7 +21,11 @@ function HomeHook() {
         <a href="useLayoutEffect" className="list-group-item">ir a LayoutEffect ^_^</a>
         <a href="useTransition" className="list-group-item">ir a transition ^_^</a>
         <a href="useActionState" className="list-group-item">ir a ActionState ^_^</a> 
-        <a href="useSyncExternalStore" className="list-group-item">ir a SyncExternalStore ^_^</a>    
+        <a href="useSyncExternalStore" className="list-group-item">ir a SyncExternalStore ^_^</a>   
+        <a href="useImperativeHandle" className="list-group-item">ir a ImperativeHandle ^_^</a>   
+        <a href="useInsertionEffect" className="list-group-item">ir a InsertionEffect ^_^</a>
+        <a href="useUse" className="list-group-item">ir a Use ^_^</a>
+        <a href="useDeferredValue" className="list-group-item">ir a DeferredValue ^_^</a>
 
       </div>
     </div>

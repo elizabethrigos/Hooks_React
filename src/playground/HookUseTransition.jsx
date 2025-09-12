@@ -16,6 +16,7 @@ function HookUseTransition() {
 
   return (
     <div>
+      <h1>Ejemplo de Transition</h1>
       <button disabled={isPending} onClick={handleEnviar}>
         Enviar mensaje
       </button>

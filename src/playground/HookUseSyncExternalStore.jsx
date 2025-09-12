@@ -33,6 +33,7 @@ function ThemeSwitcher() {
 
   return (
     <div style={styles}>
+      <h1>Ejemplo de SynExternalStore</h1>
       <h2>Tema actual: {theme}</h2>
       <button className="btn btn-primary" onClick={() => themeStore.toggleTheme()}>
         Cambiar tema

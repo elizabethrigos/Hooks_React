@@ -11,10 +11,11 @@ function HookUseRef() {
 
   return (
     <div>
+      <h1>Ejemplo de Ref</h1>
     <button onClick={handleClick}>
       Like
     </button>
-    <br />
+    <hr />
     <Link to="/">Volver al Home</Link>
     </div>
   );
