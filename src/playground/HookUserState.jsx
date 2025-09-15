@@ -25,6 +25,7 @@ function Contador(){
                         Disminuir
                     </button>
                 </div>
+                <hr />
                 <a href="/" >homehooks</a>
             </div>
         </div>
